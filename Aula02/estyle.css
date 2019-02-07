@@ -1,0 +1,71 @@
+/*Estrutura do HTML*/
+
+.troca {
+  padding: 5px;/*Funciona como uma margem, como se fosse uma borda*/
+  width: 960px;
+  margin: 20px auto;
+}
+
+header {
+  height: 180px;
+  background-color: #09c;
+  padding: 5px;
+}
+
+article {
+  width: 600px;
+  background-color: #0c6;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {clear: both;}
+
+/*Media Queries*/
+
+/* para a largura máxima de 980px */
+@media screen and (max-width:980px) {
+   #troca {
+     width: 94%;
+   }
+
+   article {
+     width: 65%;
+   }
+
+   aside {
+    width: 30%;
+   }
+}
+
+/* Largura máxima de 720px */
+@media screen and (max-width:720px) {
+  article {
+    width: auto;
+    float: none;
+  }
+
+  aside {
+    width: auto;
+    float: none;
+  }
+}
+
+/* Largura máxima de 480px */
+@media screen and (max-width:480px) {
+  header {
+    height: auto;
+  }
+
+  aside {
+    display: none;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+}

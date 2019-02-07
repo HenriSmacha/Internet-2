@@ -1,0 +1,16 @@
+body {
+  font: 1em/150%
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 36px/100%;
+}
+
+.texto {
+  padding:2%;
+}
+
+.troca, header, article, aside, footer {
+  border: solid 1px #ccc;
+}

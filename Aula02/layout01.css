@@ -1,0 +1,45 @@
+body {
+  font-family: 'Audiowide', cursive;
+  font-size: 1em/150%;
+  background-color: #5F9EA0;
+}
+
+section {
+  margin: auto;
+}
+
+header {
+  width: 70%;
+  height: 200px;
+  background-color: #66CDAA;
+  float: right;
+}
+
+aside {
+  width: 30%;
+  height: 450px;
+  background-color: #7FFFD4;
+  float: left;
+}
+
+article {
+	width:70%;
+	height:350px;
+	background-color:#20B2AA;
+	float:right;
+}
+
+nav {
+  width: 70%;
+  height: 40px;
+  float: right;
+  background-color: #008B8B;
+}
+
+footer {
+  width: 70%;
+  height: 40px;
+  float: right;
+  clear: both;
+  background-color: #008B8B;
+}
